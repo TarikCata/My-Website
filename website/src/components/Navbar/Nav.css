@@ -1,0 +1,58 @@
+.navbar {
+  height: 80px;
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 1500px;
+  width: 100%;
+  transition: 0.5s ease-out;
+  overflow: hidden;
+}
+.navbar.active {
+  top: -13%;
+  transition: 0.5s ease-out;
+}
+.container {
+  display: flex;
+  gap: 700px;
+  font-size: 1.2rem;
+}
+
+.menu-item {
+  font-size: 1.4rem;
+  display: flex;
+  gap: 50px;
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.menu-li {
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #70696e;
+  -webkit-transition: ease-out 0.7s;
+  -moz-transition: ease-out 0.7s;
+  transition: ease-out 0.7s;
+}
+.menu-li.one:hover {
+  box-shadow: inset 0 0 40px 40px rgb(46, 49, 65);
+}
+.menu-li.two:hover {
+  box-shadow: inset 0 0 40px 40px rgb(46, 49, 65);
+}
+.menu-li.three:hover {
+  box-shadow: inset 0 0 40px 40px rgb(46, 49, 65);
+}
+.menu-li.four:hover {
+  box-shadow: inset 0 0 40px 40px rgb(46, 49, 65);
+}
+
+@media screen and (max-width: 967px) {
+  .navbar {
+    display: none;
+  }
+}

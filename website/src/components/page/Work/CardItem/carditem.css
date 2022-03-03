@@ -1,0 +1,86 @@
+.card-item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  background: rgb(72, 74, 87);
+}
+
+.for-img {
+  height: 60%;
+  width: 100%;
+  transition: 1s all ease-in-out;
+  transform-style: preserve-3d;
+}
+
+.for-img.a:hover {
+  cursor: pointer;
+  transition: 1.2s all ease-in-out;
+  transform: rotateY(360deg);
+}
+
+.for-img.b:hover {
+  cursor: pointer;
+  transition: 1.2s all ease-in-out;
+  transform: rotateX(360deg);
+}
+.for-img.c:hover {
+  cursor: pointer;
+  transition: 1.2s all ease-in-out;
+  transform: rotateX(360deg);
+}
+
+.for-img.d:hover {
+  cursor: pointer;
+  transition: 1.2s all ease-in-out;
+  transform: rotateY(360deg);
+}
+.for-img-pic {
+  width: 100%;
+  height: 100%;
+}
+
+.work-t-p-b {
+  padding: 12px 12px 12px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  color: white;
+}
+.work-t {
+  border-bottom: 1px solid white;
+}
+
+.work-b {
+  display: flex;
+  justify-content: center;
+}
+.work-btn {
+  width: 80px;
+  height: 28px;
+  font-size: 0.9rem;
+  background: rgb(72, 74, 87);
+  border: none;
+  color: white;
+  transition: 0.4s ease-out;
+  font-family: "Times New Roman", Times, serif;
+}
+.work-btn:hover {
+  background-color: white;
+  color: rgb(36, 38, 53);
+  transition: 0.4s ease-out;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.work-p {
+  width: 100%;
+}
+@media only screen and (max-width: 700px) {
+  .work-t-p-b {
+    padding: 20px 20px 20px 20px;
+    gap: 20px;
+  }
+  .work-b {
+    margin-top: 40px;
+  }
+}
