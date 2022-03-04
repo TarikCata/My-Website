@@ -125,16 +125,29 @@
     gap: 180px;
   }
 }
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 376px) {
   .work-container {
-    height: 210vh;
+    height: 230vh;
   }
   .work-content {
     width: 66%;
-    height: 210vh;
+    height: 230vh;
   }
   .kartice {
-    height: 210vh;
-    gap: 210px;
+    height: 230vh;
+    gap: 280px;
+  }
+}
+@media screen and (max-width: 321px) {
+  .work-container {
+    height: 250vh;
+  }
+  .work-content {
+    width: 66%;
+    height: 240vh;
+  }
+  .kartice {
+    height: 240vh;
+    gap: 290px;
   }
 }

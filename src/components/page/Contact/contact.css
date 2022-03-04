@@ -113,12 +113,16 @@ textarea {
 }
 @media screen and (max-width: 610px) {
   .contact-container {
-    position: static;
     height: 90vh;
   }
   .icons {
     justify-content: center;
     padding-right: 0;
     padding-top: 6px;
+  }
+}
+@media screen and (max-width: 376px) {
+  .contact-container {
+    height: 120vh;
   }
 }
