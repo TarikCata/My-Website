@@ -1,1 +1,1 @@
-[Check it out](https://tarik-portofolio.netlify.app)
+[Check it out](https://tarik-portofolio.netlify.app/)
