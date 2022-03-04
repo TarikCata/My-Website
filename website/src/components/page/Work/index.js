@@ -19,7 +19,6 @@ const Work = () => {
   };
 
   const changeStanje = () => {
-    const end = 800;
     const skrolano = window.scrollY;
     const treba = 1890;
     if (Math.ceil(skrolano) > treba) {

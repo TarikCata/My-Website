@@ -1,4 +1,3 @@
-import React, { useEffect } from "react";
 import "./carditem.css";
 import CPlusPlus from "../../../../images/c++.png";
 import CSharp from "../../../../images/csharp-dotnet-1.png";

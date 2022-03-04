@@ -68,7 +68,7 @@ function Nav() {
               Work
             </Link>
             <Link
-              // to="contact"
+              to="contact"
               activeClass="active-link"
               spy={true}
               smooth={true}
