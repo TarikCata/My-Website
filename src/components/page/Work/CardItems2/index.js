@@ -23,10 +23,10 @@ function CardItem2() {
           <div className="work-b">
             <button
               className="work-btn"
-              onClick={() => {
-                window.location.href =
-                  "https://github.com/TarikCata/my-website";
-              }}
+              // onClick={() => {
+              //   window.location.href =
+              //     "https://github.com/TarikCata/my-website";
+              // }}
             >
               See more
             </button>
