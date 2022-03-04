@@ -87,9 +87,10 @@ textarea {
 }
 @media screen and (max-width: 800px) {
   .contact-container {
-    overflow-y: none;
-    gap: 15px;
+    position: static;
+    height: 60vh;
   }
+
   .contact-elements {
     flex-direction: column;
     gap: 20px;
@@ -111,6 +112,10 @@ textarea {
   }
 }
 @media screen and (max-width: 610px) {
+  .contact-container {
+    position: static;
+    height: 90vh;
+  }
   .icons {
     justify-content: center;
     padding-right: 0;

@@ -68,6 +68,7 @@
   justify-content: right;
   display: none;
 }
+
 @media screen and (max-width: 800px) {
   .work-container {
     height: 220vh;
@@ -94,28 +95,46 @@
 }
 
 @media screen and (max-width: 600px) {
+  .work-container {
+    height: 300vh;
+  }
   .work-content {
     width: 74%;
   }
   .kartice {
+    height: 300vh;
+
     gap: 290px;
   }
 }
 @media screen and (max-width: 600px) {
   .kartice {
-    gap: 220px;
+    gap: 340px;
   }
 }
 @media screen and (max-width: 500px) {
   .work-container {
-    height: 290vh;
+    height: 200vh;
   }
   .work-content {
     width: 66%;
-    height: 260vh;
+    height: 200vh;
   }
   .kartice {
-    height: 260vh;
-    gap: 360px;
+    height: 200vh;
+    gap: 180px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .work-container {
+    height: 210vh;
+  }
+  .work-content {
+    width: 66%;
+    height: 210vh;
+  }
+  .kartice {
+    height: 210vh;
+    gap: 210px;
   }
 }

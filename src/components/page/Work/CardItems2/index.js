@@ -21,7 +21,15 @@ function CardItem2() {
             <p>Portofolio page worked in React.</p>
           </div>
           <div className="work-b">
-            <button className="work-btn">See more</button>
+            <button
+              className="work-btn"
+              onClick={() => {
+                window.location.href =
+                  "https://github.com/TarikCata/my-website";
+              }}
+            >
+              See more
+            </button>
           </div>
         </div>
       </div>
