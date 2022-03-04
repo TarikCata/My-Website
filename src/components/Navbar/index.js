@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./Nav.css";
 import { Link } from "react-scroll";
-import { useEffect } from "react/cjs/react.development";
 
 function Nav() {
   const [click, setClick] = useState(false);
