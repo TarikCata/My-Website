@@ -89,6 +89,7 @@
   
   .menu-li{
     margin-top: -30px;
+    margin-bottom: 33px ;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -99,5 +100,10 @@
   .fas.fa-times,
   .fas.fa-bars {
     color: white;
+  }
+
+  .active-link{
+    border-bottom: none;
+    background: #70696e;
   }
 }
