@@ -3,7 +3,8 @@
   flex-direction: column;
   gap: 10px;
   width: 100%;
-  background: rgb(72, 74, 87);
+  background-color: #2d3436;
+  background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
 }
 
 .for-img {
@@ -59,7 +60,7 @@
   width: 80px;
   height: 28px;
   font-size: 0.9rem;
-  background: rgb(72, 74, 87);
+  background-color: transparent;
   border: none;
   color: white;
   transition: 0.4s ease-out;

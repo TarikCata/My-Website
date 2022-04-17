@@ -1,30 +1,13 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "./Nav.css";
 import { Link } from "react-scroll";
 
 function Nav() {
   const [click, setClick] = useState(false);
-  const [nav, setNav] = useState(false);
-
-  const myFunk = () => {
-    const sc = window.scrollY;
-    const cc = 162;
-    if (Math.ceil(sc) >= cc) {
-      setNav(true);
-    } else if (Math.ceil(sc) <= cc) {
-      setNav(false);
-    }
-  };
-
-  window.addEventListener("scroll", myFunk);
-
-  useEffect(() => {
-    myFunk();
-  }, []);
 
   return (
     <>
-      <nav className={nav ? "navbar active" : "navbar"}>
+      <nav className="navbar">
         <div className="container">
           <div className="menu-icon-div">
             <i

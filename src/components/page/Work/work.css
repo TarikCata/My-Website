@@ -1,11 +1,10 @@
 .work-container {
   width: 100%;
-  height: 173vh;
+  height: 178vh;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background: rgb(46, 49, 65);
   overflow: hidden;
 }
 

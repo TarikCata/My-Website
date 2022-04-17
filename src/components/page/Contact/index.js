@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "./contact.css";
 import emailjs from "emailjs-com";
 import { FaGithub } from "react-icons/fa";
@@ -7,22 +7,6 @@ import { FaInstagram } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
 
 function Contact() {
-  const [acc, setAcc] = useState(false);
-
-  const append = () => {
-    let scrolled = window.scrollY;
-    const wanted = 2100;
-    if (Math.ceil(scrolled) >= wanted) {
-      setAcc(true);
-    }
-  };
-
-  window.addEventListener("scroll", append);
-
-  useEffect(() => {
-    append();
-  }, []);
-
   const [values, setValues] = useState({
     first_name: "",
     last_name: "",
@@ -72,16 +56,13 @@ function Contact() {
         );
       clean();
     } else {
-      alert("Fill all inputs...dont send me some jibberish");
+      alert("Fill all inputs...don't send me some jibberish");
     }
   };
 
   return (
     <>
-      <div
-        className={acc ? "contact-container active" : "contact-container"}
-        id="contact"
-      >
+      <div className="contact-container" id="contact">
         <div className="contact-title">
           <h1 className="title-content">Contact</h1>
         </div>

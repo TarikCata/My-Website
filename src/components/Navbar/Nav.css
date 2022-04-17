@@ -1,6 +1,7 @@
 .navbar {
   height: 80px;
-  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  background-color: #2b4162;
+  background-image: linear-gradient(315deg, #2b4162 0%, #12100e 74%);
   position: sticky;
   top: 0;
   display: flex;
@@ -8,11 +9,10 @@
   align-items: center;
   width: 100%;
   transition: 0.5s ease-out;
-  overflow: hidden;
+  z-index: 2;
 }
-.navbar.active {
-  top: -13%;
-  transition: 0.5s ease-out;
+.active-link{
+  border-bottom: 1px solid white;
 }
 .container {
   display: flex;
@@ -34,38 +34,33 @@
   -webkit-transition: ease-out 0.7s;
   -moz-transition: ease-out 0.7s;
   transition: ease-out 0.7s;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
 }
-.menu-li.one:hover {
-  box-shadow: inset 0 0 40px 40px rgb(46, 49, 65);
+.menu-li:hover {
+  box-shadow: inset 0 0 40px 40px transparent;
+  border-bottom: 1px solid white;
 }
-.menu-li.two:hover {
-  box-shadow: inset 0 0 40px 40px rgb(46, 49, 65);
-}
-.menu-li.three:hover {
-  box-shadow: inset 0 0 40px 40px rgb(46, 49, 65);
-}
-.menu-li.four:hover {
-  box-shadow: inset 0 0 40px 40px rgb(46, 49, 65);
-}
+
 .menu-icon-div {
   display: none;
 }
 @media screen and (max-width: 800px) {
   .navbar {
-    display: none;
-  }
-  /* .navbar {
+    width: 100%;
     max-height: 380px;
-    overflow: visible;
   }
   .container {
     flex-direction: column;
     gap: 20px;
-    border: 1px solid white;
   }
   .menu-icon-div {
     width: 100%;
-    height: 80px;
+    height: 70px;
+    margin-top: 18px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -73,14 +68,36 @@
   .div-menu-items {
     width: 100%;
     height: 0;
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    transition: 0.7s all ease-in-out;
+  }
+  .div-menu-items.active{
+    transition: 0.7s all ease-in-out;
+    left: 0%;
+    
   }
   .menu-item {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background: black;
+    color: white;
+    height: 100vh;
+  }
+  
+  .menu-li{
+    margin-top: -30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    
   }
   .fas.fa-times,
   .fas.fa-bars {
     color: white;
-  } */
+  }
 }
