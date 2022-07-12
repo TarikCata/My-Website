@@ -58,6 +58,33 @@ function CardItem2() {
           </div>
         </div>
       </div>
+      <div className="card-item">
+        <div className="for-img c">
+          <img
+            src="https://javadesde0.com/wp-content/uploads/87018c00-694b-11e9-8b5f-c34826306d36.png"
+            alt=""
+            className="for-img-pic"
+          />
+        </div>
+        <div className="work-t-p-b">
+          <div className="work-t">
+            <h3>Angular</h3>
+          </div>
+          <div className="work-p">
+            <p>Project i worked on with my friends in Angular.</p>
+          </div>
+          <div className="work-b">
+            <button
+              className="work-btn"
+              onClick={() => {
+                window.location.href = "https://github.com/TarikCata/eCitizen";
+              }}
+            >
+              See more
+            </button>
+          </div>
+        </div>
+      </div>
     </>
   );
 }

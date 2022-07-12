@@ -1,6 +1,6 @@
 .work-container {
   width: 100%;
-  height: 178vh;
+  height: auto !important;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -9,8 +9,8 @@
 }
 
 .work-content {
-  width: 70%;
-  height: 153vh;
+  width: 74%;
+  height: auto !important;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -32,7 +32,7 @@
 }
 .cards {
   width: 100%;
-  height: 60vh;
+  height: auto !important;
   display: flex;
   gap: 30px;
   position: relative;
@@ -44,11 +44,10 @@
 }
 .cards- {
   width: 100%;
-  height: 62.5vh;
+  height: auto !important;
   display: grid;
-  grid-template-columns: repeat(2, auto);
-  grid-row-gap: 30px;
-  grid-column-gap: 30px;
+  grid-template-columns: repeat(3, auto);
+  grid-column-gap: 26px;
   position: relative;
   right: -130%;
   transition: 2s ease-in-out;
@@ -68,85 +67,19 @@
   display: none;
 }
 
-@media screen and (max-width: 800px) {
-  .work-container {
-    height: 220vh;
-  }
-  .work-content {
-    width: 66%;
-    height: 200vh;
-  }
-  .cards {
-    display: grid;
-    grid-template-columns: repeat(1, auto);
-    grid-row-gap: 30px;
-    grid-column-gap: 30px;
-  }
-  .cards- {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-  }
-  .kartice {
-    gap: 230px;
-    height: 200vh;
-  }
+@media screen and (max-width: 600px) {
+    .work-content{
+      width: 100%;
+    }
+    .cards{
+      flex-direction: column;
+      padding-left: 50px;
+    }
+    .cards-{
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      padding-left: 50px;
+    }
 }
 
-@media screen and (max-width: 600px) {
-  .work-container {
-    height: 300vh;
-  }
-  .work-content {
-    width: 74%;
-  }
-  .kartice {
-    height: 300vh;
-
-    gap: 290px;
-  }
-}
-@media screen and (max-width: 600px) {
-  .kartice {
-    gap: 340px;
-  }
-}
-@media screen and (max-width: 500px) {
-  .work-container {
-    height: 200vh;
-  }
-  .work-content {
-    width: 66%;
-    height: 200vh;
-  }
-  .kartice {
-    height: 200vh;
-    gap: 180px;
-  }
-}
-@media screen and (max-width: 376px) {
-  .work-container {
-    height: 230vh;
-  }
-  .work-content {
-    width: 66%;
-    height: 230vh;
-  }
-  .kartice {
-    height: 230vh;
-    gap: 280px;
-  }
-}
-@media screen and (max-width: 321px) {
-  .work-container {
-    height: 250vh;
-  }
-  .work-content {
-    width: 66%;
-    height: 240vh;
-  }
-  .kartice {
-    height: 240vh;
-    gap: 290px;
-  }
-}
