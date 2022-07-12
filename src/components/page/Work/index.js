@@ -12,7 +12,7 @@ const Work = () => {
 
   const showCards = () => {
     const scrolled = window.scrollY;
-    const watedScroll = 1378;
+    const watedScroll = 1200;
     if (Math.ceil(scrolled) > watedScroll) {
       setActive(true);
     }
@@ -20,7 +20,7 @@ const Work = () => {
 
   const changeStanje = () => {
     const skrolano = window.scrollY;
-    const treba = 1890;
+    const treba = 1500;
     if (Math.ceil(skrolano) > treba) {
       setStanje(true);
     }
