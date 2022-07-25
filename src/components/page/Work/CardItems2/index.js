@@ -68,7 +68,7 @@ function CardItem2() {
         </div>
         <div className="work-t-p-b">
           <div className="work-t">
-            <h3>Angular</h3>
+            <h3>eCitizen</h3>
           </div>
           <div className="work-p">
             <p>Project i worked on with my friends in Angular.</p>

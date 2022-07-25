@@ -33,7 +33,7 @@ const About = () => {
               Sarajevo.Now I am student at Faculty of Information Technologies,
               University "Džemal Bijedić" in Mostar.Currently focused on
               learning software and web developing.I have experience working in
-              C++,C#,React,Python,HTML5,CSS,JavaScript.Competitive and always
+              C++,C#,HTML5,CSS,JavaScript,React,Angular.Competitive and always
               ready for new opportunities and tasks.I'm looking forward to
               finding a good job where I can constantly expand my knowledge, and
               to persue my career as a developer.I can speak English
